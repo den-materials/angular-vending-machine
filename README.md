@@ -1,5 +1,7 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
+<!--WDI4 9:04 -->
+
 # Vending Machine Kata: Drinking the ngCola?
 
 ## Introduction
@@ -37,6 +39,8 @@ ng serve
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+<!--WDI4 9:10 coming back -->
+
 ## Features
 
 As a professional software engineer, you will most likely be working off of stories. We have split the work of creating our vending machine into three user stories.
@@ -51,6 +55,10 @@ _So that I can collect money from the customer_
 - When a valid coin is inserted (button pressed) the amount of the coin will be added to the current balance and the machine's display will be updated.
 - When there are no coins inserted, the machine displays INSERT COIN.
 
+<!--9:23 WDI4 -->
+
+<!--WDI4 after refactoring to service 9:33 -->
+
 ### Code Together: Display Items
 
 _As a vendor_  
@@ -60,6 +68,12 @@ _So that I can give them an incentive to put money in the machine_
 - The machine shows a list of items with their price and remaining inventory.
 - List of items is populated from item.service, which uses the external API to return an array of item objects.
 
+<!--9:42 WDI4 turning over to devs -->
+<!--WDI4 coming back 9:53 -->
+
+
+<!--Took break till 10:05 WDI4 -->
+<!--WDI4 just intro'd bullets then turned it over to devs at 10:08 -->
 ### Code Together: Select Item
 
 _As a vendor_
@@ -69,6 +83,8 @@ _So that I know how much money to charge them and which item I should disperse_
 - The machine includes a text input that accepts item codes.
 - The text input should not accept more than two characters.
 - The machine responds with "{{item.name}} selected." and selects item if user enters a code that matches an item code.
+
+<!--WDI4 came back around 10:35, showed my solution, and turned over to partners to work on last piece-->
 
 ### Pair Lab: Dispense Item
 
@@ -83,6 +99,8 @@ _So that I can know whether my transaction has been completed_
 - The machine deducts item cost after successfully dispensing item.
 
 Please make liberal use of this [cheatsheet](https://angular.io/docs/ts/latest/guide/cheatsheet.html).
+
+<!--WDI4 ended at 11:10 -->
 
 ## References
 
