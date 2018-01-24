@@ -6,7 +6,7 @@
 
 In this exercise, you will build the brains of a vending machine. It will accept money, maintain inventory, and dispense products — all the things that you might expect a vending machine to do.
 
-The point of this exercise is to enhance your understanding of TypeScript and Angular 2. A significant portion of your effort will be devoted to determining how to create your components and interact with the Angular services provided for managing communication across components and external API calls.
+The point of this exercise is to enhance your understanding of TypeScript and Angular. A significant portion of your effort will be devoted to determining how to create your components and interact with the Angular services provided for managing communication across components and external API calls.
 
 ## Set Up
 
