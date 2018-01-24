@@ -2,6 +2,8 @@
 
 # Vending Machine Exercise: Drinking the ngCola?
 
+<!--WDI6 9:58 -->
+
 ## Introduction
 
 In this exercise, you will build the brains of a vending machine. It will accept money, maintain inventory, and dispense products — all the things that you might expect a vending machine to do.
@@ -35,6 +37,8 @@ ng serve
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+<!--WDI6 10:12 -->
+
 ## Features
 
 As a professional software engineer, you'll most likely be working off of stories. We have split the task of creating our vending machine into three user stories.
@@ -47,12 +51,16 @@ _As a vendor, I want a vending machine that accepts coins so I can collect money
 - When a valid coin is inserted (button pressed) the value of the coin will be added to the current balance, and the machine's display will update.
 - When there are no coins inserted, the machine will display INSERT COIN.
 
+<!--WDI6 10:43 -->
+
 ### Code Together: Display Items
 
 _As a vendor, I want customers to see what they can buy so I can give them an incentive to put money in the machine._
 
 - The machine shows a list of items with their prices and remaining inventory.
 - The list of items is populated from `item.service`, which uses the external API to return an array of item objects.
+
+<!--WDI6 11:25, then 13 minute break -->
 
 ### Code Together: Select Item
 
@@ -61,6 +69,8 @@ _As a vendor, I want customers to be able to select an item so I know how much m
 - The machine includes a text input that accepts item codes.
 - The text input should not accept more than two characters.
 - The machine responds with "{{item.name}} selected" and selects an item if a user enters a code that matches that item's code.
+
+<!--WDI6 12:30 -->
 
 ### Pair Lab: Dispense Item
 
